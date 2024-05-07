@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD6E2C792BEA6412003A8980 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E2C782BEA6412003A8980 /* OnboardingContainerViewController.swift */; };
 		AD6FEE852BE942A1001643BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE842BE942A1001643BB /* AppDelegate.swift */; };
 		AD6FEE872BE942A1001643BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE862BE942A1001643BB /* SceneDelegate.swift */; };
 		AD6FEE892BE942A1001643BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE882BE942A1001643BB /* LoginViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD6E2C782BEA6412003A8980 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		AD6FEE812BE942A1001643BB /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6FEE842BE942A1001643BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6FEE862BE942A1001643BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD6E2C772BEA63D8003A8980 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AD6E2C782BEA6412003A8980 /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		AD6FEE782BE942A0001643BB = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				AD6FEE9B2BE994D4001643BB /* Files */,
 				AD6FEE992BE994B9001643BB /* Login */,
+				AD6E2C772BEA63D8003A8980 /* Onboarding */,
 				AD6FEE842BE942A1001643BB /* AppDelegate.swift */,
 				AD6FEE862BE942A1001643BB /* SceneDelegate.swift */,
 			);
@@ -156,6 +167,7 @@
 				AD6FEE892BE942A1001643BB /* LoginViewController.swift in Sources */,
 				AD6FEE852BE942A1001643BB /* AppDelegate.swift in Sources */,
 				AD6FEE9D2BE9950B001643BB /* LoginView.swift in Sources */,
+				AD6E2C792BEA6412003A8980 /* OnboardingContainerViewController.swift in Sources */,
 				AD6FEE872BE942A1001643BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
