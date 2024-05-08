@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AD6E2C792BEA6412003A8980 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E2C782BEA6412003A8980 /* OnboardingContainerViewController.swift */; };
 		AD6E2C7B2BEA68FE003A8980 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E2C7A2BEA68FE003A8980 /* OnboardingViewController.swift */; };
+		AD6E2C7D2BEC0118003A8980 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E2C7C2BEC0118003A8980 /* DummyViewController.swift */; };
+		AD6E2C802BEC4385003A8980 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E2C7F2BEC4385003A8980 /* LocalState.swift */; };
 		AD6FEE852BE942A1001643BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE842BE942A1001643BB /* AppDelegate.swift */; };
 		AD6FEE872BE942A1001643BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE862BE942A1001643BB /* SceneDelegate.swift */; };
 		AD6FEE892BE942A1001643BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEE882BE942A1001643BB /* LoginViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		AD6E2C782BEA6412003A8980 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		AD6E2C7A2BEA68FE003A8980 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AD6E2C7C2BEC0118003A8980 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		AD6E2C7F2BEC4385003A8980 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		AD6FEE812BE942A1001643BB /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6FEE842BE942A1001643BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6FEE862BE942A1001643BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		AD6E2C7E2BEC4368003A8980 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD6E2C7F2BEC4385003A8980 /* LocalState.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		AD6FEE782BE942A0001643BB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 				AD6FEE9B2BE994D4001643BB /* Files */,
 				AD6FEE992BE994B9001643BB /* Login */,
 				AD6E2C772BEA63D8003A8980 /* Onboarding */,
+				AD6E2C7E2BEC4368003A8980 /* Utils */,
 				AD6FEE842BE942A1001643BB /* AppDelegate.swift */,
 				AD6FEE862BE942A1001643BB /* SceneDelegate.swift */,
 			);
@@ -83,6 +96,7 @@
 			children = (
 				AD6FEE882BE942A1001643BB /* LoginViewController.swift */,
 				AD6FEE9C2BE9950B001643BB /* LoginView.swift */,
+				AD6E2C7C2BEC0118003A8980 /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -167,12 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E2C7D2BEC0118003A8980 /* DummyViewController.swift in Sources */,
 				AD6FEE892BE942A1001643BB /* LoginViewController.swift in Sources */,
 				AD6E2C7B2BEA68FE003A8980 /* OnboardingViewController.swift in Sources */,
 				AD6FEE852BE942A1001643BB /* AppDelegate.swift in Sources */,
 				AD6FEE9D2BE9950B001643BB /* LoginView.swift in Sources */,
 				AD6E2C792BEA6412003A8980 /* OnboardingContainerViewController.swift in Sources */,
 				AD6FEE872BE942A1001643BB /* SceneDelegate.swift in Sources */,
+				AD6E2C802BEC4385003A8980 /* LocalState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
