@@ -34,7 +34,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        window?.rootViewController = loginViewController
 //        window?.rootViewController = onboardingContainerViewController
-        window?.rootViewController = mainViewController
+//        window?.rootViewController = mainViewController
+        window?.rootViewController = AccountSummaryViewController()
         
         window?.makeKeyAndVisible()
     }
